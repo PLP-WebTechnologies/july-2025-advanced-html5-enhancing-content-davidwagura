@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy Farming - Milk Production, Dairy Products & Cattle Care</title>
+    <meta name="description"
+        content="Learn about dairy farming, milk production, cattle care, and dairy products like cheese and yogurt. Includes videos, images, and farmer resources.">
+    <meta name="keywords"
+        content="dairy farming, milk production, cattle care, cheese, yogurt, cow breeds, farm management">
+    <meta name="author" content="David Wagura">
+</head>
+
+<body>
+    <header>
+        <h1>Dairy Farming: Milk Production, Cattle Care & Dairy Products</h1>
+        <p>Explore the essentials of dairy farming,from milking techniques and cow breeds to cheese and yogurt
+            production.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Definition List</h2>
+            <dl>
+                <dt><strong>Dairy Farming</strong></dt>
+                <dd>The practice of raising cattle, goats, or sheep for milk production and related dairy products.</dd>
+                <dt><strong>Pasteurization</strong></dt>
+                <dd>The process of heating milk to kill harmful bacteria while preserving its nutritional value.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Milk Products & Farm Operations</h2>
+            <ul>
+                <li>Milk Products
+                    <ol type="a">
+                        <li>Cheese</li>
+                        <li>Yogurt</li>
+                    </ol>
+                </li>
+                <li>Farm Operations
+                    <ol type="i">
+                        <li>Feeding Cows</li>
+                        <li>Milking Process</li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Dairy Farming Images</h2>
+            <img src="https://cdn.pixabay.com/photo/2023/04/28/19/27/cow-7957275_640.jpg"
+                alt="Holstein Friesian dairy cow grazing in a green pasture" width="300" height="200">
+        </section>
+
+        <section>
+            <h2>Dairy Farming Video</h2>
+            <video width="320" height="240" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Cow Sounds (Audio)</h2>
+            <audio controls>
+                <source src="./audio-file/cow-mooing-343423.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section>
+            <h2>Daily Milk Production Table</h2>
+            <table border="1">
+                <caption>Daily Milk Production by Cow</caption>
+                <thead>
+                    <tr>
+                        <th>Cow Name</th>
+                        <th>Breed</th>
+                        <th>Liters Produced</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bella</td>
+                        <td>Holstein Friesian</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Daisy</td>
+                        <td>Jersey</td>
+                        <td>20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Farmer Feedback Form</h2>
+            <form action="submitForm" method="post" enctype="multipart/form-data">
+                <label for="name">Farmer Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="file">Upload Farm Photo:</label>
+                <input type="file" id="file" name="file" accept=".jpg,.png" required>
+                <br>
+
+                <label for="message">Message (About Your Farm):</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                <br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select a country</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="usa">USA</option>
+                    <option value="india">India</option>
+                    <option value="australia">Australia</option>
+                </select>
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dairy Farming Guide. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
